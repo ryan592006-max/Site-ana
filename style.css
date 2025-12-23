@@ -1,0 +1,44 @@
+body {
+    background-color: #c488cc;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bac {
+    background-color: #cd93d4;
+    width: 600px;
+
+    display: flex;
+    justify-content: center;   /* CENTRALIZA A .container HORIZONTALMENTE */
+}
+
+.container {
+    margin-top: 60px;              /* imagem um pouco abaixo do topo */
+    width: 90%;
+    max-width: 500px;              /* largura padrão da imagem */
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.spotify {
+    width: 100%;                   /* mesma largura da imagem */
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    color: #f4f49b;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
