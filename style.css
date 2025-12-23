@@ -42,3 +42,32 @@ h3 {
     line-height: 1.5;
 }
 
+@media (max-width: 768px) {
+
+    .bac {
+        width: 100%;          /* ocupa toda a largura da tela */
+        padding: 0 15px;      /* respiro lateral */
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 40px;     /* menos espaço no mobile */
+    }
+
+    .container img {
+        border-radius: 12px;  /* mais natural em telas pequenas */
+    }
+
+    .spotify {
+        height: 100px;        /* melhor proporção no mobile */
+    }
+
+    h3 {
+        font-size: 1rem;      /* texto mais confortável */
+        padding: 0 10px;
+    }
+}
+
+
